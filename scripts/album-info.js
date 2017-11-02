@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 $( document ).ready(function() {
    $('#album-title').text(album.title);
    $('img#album-cover-art').attr('src', album.albumArtUrl);
@@ -11,3 +12,11 @@ $(document).ready(function() {
   $('img#album-cover-art').attr('src', album.albumArtUrl);
 });
 >>>>>>> checkpoint-11
+=======
+$(document).ready(function() {
+  $('#album-title').text(album.title);
+  $('img#album-cover-art').attr('src', album.albumArtUrl);
+  $('.artist').text(album.artist);
+  $('#release-info').text(album.releaseInfo);
+});
+>>>>>>> Assignment-11
